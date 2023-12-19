@@ -1,29 +1,28 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
- padding-top:  1rem;
-  /* background-image: url("image.svg");
-  background-size: cover; */
- background: linear-gradient(to right, white 30%, #6FDCBF 0%);
+
+
 }
-
-
-
-
+.sec-1{
+  padding-top:  1rem;
+  /* background: linear-gradient(to right, #FDF1E0 60%, #6FDCBF 0%); */
+  background: linear-gradient(to right, #FDF1E0 60%, #6FDCBF 40%);
+  height: 50rem;
+}
 header {
-
   padding: 15px;
   display: flex;
   justify-content:space-between;
   align-items: center;
   margin-left: 5rem;
   margin-right: 5rem;
-
 }
 
-.logo {
+.logo{
+  font-family: 'Rubik Doodle Shadow';
   color: #6FDCBF;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: bold;
   animation: bounce 3s infinite; /* Add animation to the logo */
 
@@ -40,6 +39,10 @@ header {
     transform: translateY(-10px); /* Adjust the bounce height */
   }
 }
+.logo:hover{
+  color: #774069;
+  cursor: pointer;
+}
 
 .right-side {
   display: flex;
@@ -52,7 +55,6 @@ header {
   font-weight: bold;
   font-size: 20px;
   transition: color 0.3s ease;
-  
 }
 
 .right-side a:hover {
@@ -64,62 +66,96 @@ header {
   margin-right: 5rem;
 }
 img{
-  margin-top: -7rem;
-  max-width: 40%;
-margin-left: 10rem;
+max-width: 30%;
+margin-left: 10rem; 
+margin-right: 5rem;
+margin-top: 5rem;
+
 }
 .hello{
-  transform: rotate(-5deg);
+  transform: rotate(-9deg);
   transform-origin: bottom-left;
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
   color: #AF91DB;
-  padding-bottom: 3rem;
+  margin-top: 0;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+}
+.hello:hover{
+  font-size: 50px;
 }
 .text{
   vertical-align: bottom;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 700;
- font-size:2rem;
- margin-top: 5rem;
+  font-weight: 900;
+  font-size:2.2rem;
+  margin-top: 5rem;
+  line-height: 3rem;
+  text-align: center;
+  vertical-align: middle;
 
 }
 .course{
-  font-family: fantasy;
-  font-weight: 900;
-  -webkit-text-stroke-width: 2px;
+  color:#774069; 
+  font-family: 'Rubik Doodle Shadow'; 
+}
+
+.course:hover{
+ font-family: 'Rubik Broken Fax';
+}
+.sec-2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgb(202, 152, 77);
+
   
 }
-
-
-  .skills {
-    /* background-color: rgba(218, 165, 32); */
-    background-color: #AE8FDB;
-    text-align: center;
-
-   
-}
-h1{
-  padding: 5rem 5rem;
-  margin-top: 10rem;
-  vertical-align: middle;
-  vertical-align: bottom;
-}
-.row{
+.flex{
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
   text-align: center;
-  vertical-align: middle;
+  padding: 5rem 1rem 10rem 1rem; 
+  color: white;
 }
-.icon{
-  width: 7rem;
-  padding-bottom: 8rem;
+.AboutMe{
+  padding: 1rem;
+  border: solid;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+  width: 80%;
+  line-height: 3rem;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-right: 5rem;
+  background-color: rgb(202, 152, 77);
+}
+.AboutMe:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.myPhoto{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 4rem;
+}
+.myPhoto img{
+  max-width: 70%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+}
+.myPhoto img:hover{
+  transform: scale(1.15);
+  transition: transform 0.3s ease;
+}
+
+.sec-3 {
+  /* background-color: #CAB6E8; */
+  background: linear-gradient(to right, #a678ebdd 0%, white 100%);
+  transition: background 0.1s ease;
   text-align: center;
-  vertical-align: middle;
-  object-fit: contain;
-  transition: transform 0.3s ease-in-out;
+  padding-bottom: 2rem;
+   
 }
 .heading{
   color: #5E556A;
@@ -127,8 +163,31 @@ h1{
   font-size: 3rem;
   font-weight: 700;
   text-align: left;
-  padding-bottom: 9rem;
+  padding: 3rem;
+  padding-bottom: 0;
+  margin-top: 0;
 }
+.heading2{
+  padding-top: 5rem;
+  font-size: 3.5rem;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 80%; 
+}
+
+.icon{
+  width: 9rem;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
 .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
