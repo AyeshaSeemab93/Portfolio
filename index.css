@@ -46,15 +46,19 @@ header {
 
 .right-side {
   display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .right-side a {
   text-decoration: none;
   color: black;
-  margin-right: 20px;
+  margin-right: 15px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5rem;
   transition: color 0.3s ease;
+ 
 }
 
 .right-side a:hover {
@@ -81,6 +85,7 @@ margin-top: 5rem;
   margin-top: 0;
   padding-bottom: 4rem;
   margin-bottom: 0;
+ 
 }
 .hello:hover{
   font-size: 50px;
@@ -96,6 +101,26 @@ margin-top: 5rem;
   vertical-align: middle;
 
 }
+
+@keyframes colorChange {
+  20% {
+    color: #BCC7CF;
+  }
+  50% {
+    color: #2A938D;
+  }
+  100% {
+    color: #F6CFBC;
+  }
+}
+
+.AboutMe {
+  
+  animation: colorChange 20s infinite; /* Adjust the duration as needed */
+}
+
+
+
 .course{
   color:#774069; 
   font-family: 'Rubik Doodle Shadow'; 
@@ -151,7 +176,7 @@ padding-bottom: 4rem;
 
 .sec-3 {
   /* background-color: #CAB6E8; */
-  background: linear-gradient(to right, #a678ebdd 0%, white 100%);
+  background: linear-gradient(to right, #a678ebdd 0%, #e1dcea 100%);
   transition: background 0.1s ease;
   text-align: center;
   padding-bottom: 2rem;
@@ -183,10 +208,11 @@ padding-bottom: 4rem;
 }
 
 .icon{
-  width: 9rem;
+  width: 100%;
   object-fit: contain;
   transition: transform 0.3s ease-in-out;
 }
+
 
 .icon:hover {
   transform: scale(1.5);
