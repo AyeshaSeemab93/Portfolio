@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
 }
@@ -19,10 +19,6 @@ header {
   margin-right: 5rem;
 }
 
-
-
-
-
 .logo{
   font-family: 'Rubik Doodle Shadow';
   color: #6FDCBF;
@@ -30,6 +26,7 @@ header {
   font-weight: bold;
   /* animation: bounce 3s infinite; Add animation to the logo */
   animation: bounce 4s; 
+  text-decoration: none;
 
 }
 
@@ -68,7 +65,7 @@ header {
 
 .right-side a:hover {
   color: #AF91DB;
-  text-decoration:dashed;
+
 }
 .first-container{
   display: flex;
@@ -77,10 +74,9 @@ header {
 }
 img{
 max-width: 30%;
-margin-left: 10rem; 
-margin-right: 5rem;
+margin-left: 3rem; 
+margin-right: 4rem;
 margin-top: 5rem;
-
 }
 .hello{
   transform: rotate(-9deg);
