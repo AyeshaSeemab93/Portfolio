@@ -1,0 +1,124 @@
+@media only screen and (max-width: 900px){
+  header {
+   margin-left: 0;
+   margin-right: 0;
+  }
+
+  .logo{
+    font-size: 60px;
+  }
+  .right-side{
+    flex-direction: column;
+   align-items: flex-start;
+  }
+  .first-container{
+    flex-direction: column;
+  }
+  .animation{
+    max-width: 50%;
+  }
+  .text{
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    line-height: 2rem; 
+    margin-right: -3rem;
+    margin-left: 1rem;
+ 
+  }
+  .sec-1{
+    height: auto;
+    padding-bottom: 5rem;
+    background: linear-gradient(to right, #FDF1E0 68%, #6FDCBF 40%);
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .AboutMe{
+    width: 100%;
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-right: 0rem;
+   
+  }
+  
+  .flex{
+    flex-wrap: wrap;
+  }
+  .grid{
+    column-gap: 0rem;
+    row-gap: 2rem;
+    max-width: 100%; 
+  }
+
+  .contact {
+    background-image: none;
+    background-color: antiquewhite; 
+    padding-left: 2rem;
+  }
+  .contact-logo{
+    height: 3rem;
+    margin: 0;
+  }
+  p, p a{
+    font-size: 1.3rem;
+  }
+  /*  */
+.top, .padding{
+  padding: 0;
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+  .dots{
+    max-width: 8rem;
+   
+  }
+  .box{
+    padding: 2rem;
+    font-weight: 500;
+    margin-top: 0; 
+  }
+  .circle{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-top: 10rem;
+   
+  }
+  button{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1.5rem;
+    width: 20rem;
+    
+  }
+  button:hover{
+    width: 25rem;
+    font-size: 1.2rem;
+  }
+  ol{
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    
+  }
+  .html, .asp{
+    background-size: 15rem;
+  }
+  .java, .azure{
+    background-size: 10rem;
+  }
+  body{
+    padding-bottom: 3rem;
+  }
+  .subject{
+    padding: 1rem;
+  }
+  .code{
+    margin-bottom: 0;
+  }
+
+}
