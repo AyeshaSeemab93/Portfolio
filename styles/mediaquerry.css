@@ -5,11 +5,13 @@
   }
 
   .logo{
-    font-size: 60px;
+    font-size: 50px;
   }
   .right-side{
+    font-size: 0.8rem;
     flex-direction: column;
    align-items: flex-start;
+   
   }
   .first-container{
     flex-direction: column;
@@ -33,7 +35,10 @@
   }
   .heading{
     font-size: 2rem;
+    padding-top: 2rem;
   }
+
+  
   .AboutMe{
     width: 100%;
     line-height: 2rem;
@@ -47,9 +52,11 @@
     flex-wrap: wrap;
   }
   .grid{
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 0rem;
     row-gap: 2rem;
     max-width: 100%; 
+    margin: 0.5rem;
   }
 
   .contact {
