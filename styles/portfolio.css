@@ -4,6 +4,11 @@ body{
   padding-bottom: 10rem;
  
 }
+.top{
+ 
+  align-items: flex-start;
+  justify-content: left;
+}
 .dots{
   max-width: 15rem;
   margin-bottom: 9rem;
@@ -21,7 +26,6 @@ body{
   position: relative;
 
 }
-
 
 .circle{
   width: 200px;
@@ -88,7 +92,7 @@ button:hover{
 
 ol{
   font-size: 2rem;
-  color: white;
+  color: rgb(77, 88, 64);
   margin: 1rem 10rem;
   /* background-color: #DFC386; */
   padding: 1rem;
@@ -102,7 +106,8 @@ ol li{
 }
 a{
   text-decoration: none;
-  color: white;
+  color: rgb(77, 88, 64);
+
 }
 .code{
   color: white;
@@ -119,15 +124,56 @@ a{
   text-align: right;
   margin-right: 5rem;
 }
-.mustard{
-  background-color: #DFC386;
+ .mustard{
+  /* background-color: #DFC386; */
   margin-bottom: -2rem;
+ 
 }
-.green{
-  background-color: #EAE9C5;
-  height: 50rem;
+.background{
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
-.blue{
-  background-color: #B5E6EE;
-  padding-bottom: 5rem;
+.html{
+  background-image: url('../icons/html5-plain-wordmark.svg');
+  background-size: 30rem;
 }
+.c{
+  background-image: url('../icons/csharp-original.svg');
+}
+.java{
+  background-image: url('../icons/javascript-original.svg');
+  background-size: 20rem;
+}
+.react{
+  background-image: url('../icons/react-original-wordmark.svg');
+}
+.node{
+  background-image: url('../icons/nodejs-original-wordmark.svg');
+}
+.api{
+  background-image: url('../icons/api.png');
+}
+
+.asp{
+  background-image: url('../icons/dot-net-plain-wordmark.svg');
+  background-size: 20rem;
+}
+.azure{
+  background-image: url('../icons/azure-original-wordmark.svg');
+}
+.git{
+  background-image: url('../logos/github.png');
+
+}
+.ui{
+  background-image: url('../icons/figma-original.svg');
+  
+}
+.sql{
+  background-image: url('../icons/mysql-original-wordmark.svg');
+
+}
+
+
+

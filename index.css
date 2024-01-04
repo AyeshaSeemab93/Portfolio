@@ -115,7 +115,7 @@ margin-top: 5rem;
     color: #2A938D;
   }
   100% {
-    color: #F6CFBC;
+    color: #985f42;
   }
 }
 
@@ -137,7 +137,9 @@ margin-top: 5rem;
 .sec-2{
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 /* background-color: rgb(202, 152, 77); */
-background-color: #fef9c6;
+background-color: #f4f4c7;
+/* background-color: #ffe6cf; */
+/* background-color: #ffd1c6; */
 
   
 }
@@ -159,8 +161,7 @@ background-color: #fef9c6;
   font-weight: 900;
   font-size: 2rem;
   margin-right: 5rem;
-  /* background-color: rgb(202, 152, 77); */
-  background-color: #fef9c6;
+ 
 }
 .AboutMe:hover{
   transform: scale(1.05);
@@ -182,7 +183,6 @@ padding-bottom: 4rem;
 }
 
 .sec-3 {
-  /* background-color: #CAB6E8; */
   background: linear-gradient(to right, #a678ebdd 0%, #e1dcea 100%);
   transition: background 0.1s ease;
   text-align: center;
@@ -223,4 +223,43 @@ padding-bottom: 4rem;
 
 .icon:hover {
   transform: scale(1.5);
+}
+
+.contact {
+  background-image: url(./images/phone.jpeg);
+  background-position: center;
+  background-size: 85rem;
+  height: 42rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 38rem;
+}
+.contact-logo{
+  height: 3rem;
+  
+  margin: 0;
+}
+
+p{
+  display: inline;
+  font-family:cursive;
+font-size: 2rem;
+text-align: center;
+vertical-align: top;
+
+}
+p a{
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  /* color: #b087f1; */
+  font-family: 'Times New Roman', Times, serif;
+}
+p a:hover{
+  font-size: 2rem;
+  color: #774069;
+
 }
