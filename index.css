@@ -119,12 +119,6 @@ margin-top: 5rem;
     color: #985f42;
   }
 }
-
-.AboutMe {
-  
-  animation: colorChange 20s infinite; /* Adjust the duration as needed */
-}
-
 .course{
   color:#774069; 
   font-family: 'Rubik Doodle Shadow'; 
@@ -133,6 +127,116 @@ margin-top: 5rem;
 .course:hover{
  font-family: 'Rubik Broken Fax';
 }
+.main-button{
+  padding: 2rem;
+}
+.button-container
+{
+  margin-top: 5rem;
+}
+.resume-button {
+
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  animation: vibrate 5s infinite;
+  transition: background-color 0.3s;
+  margin-bottom: 2rem;
+}
+
+.resume-button:hover {
+  transition: background-color 0.3s;
+  cursor: pointer;
+
+}
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px) translateY(-5px);
+  }
+  50% {
+    transform: translateX(5px) translateY(5px);
+  }
+  75% {
+    transform: translateX(-5px) translateY(-5px);
+  }
+  100% {
+    transform: translateX(2px) translateY(2px);
+  }
+}
+
+.glow-on-hover {
+  background-color: #00ffd5;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -3px;
+  left:-3px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: #be6d9f;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #be6d9f;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
+
+
+
+
+
 .sec-2{
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 /* background-color: rgb(202, 152, 77); */
@@ -145,11 +249,10 @@ background-color: #f4f4c7;
 .flex{
   display: flex;
   flex-direction: row;
-
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 3rem 1rem 5rem 1rem; 
+  padding: 2rem 1rem 5rem 1rem; 
   color: white;
 }
 .AboutMe{
@@ -161,6 +264,7 @@ background-color: #f4f4c7;
   font-weight: 900;
   font-size: 2rem;
   margin-right: 5rem;
+  color: #42948F;
  
 }
 .AboutMe:hover{
