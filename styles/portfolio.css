@@ -170,7 +170,13 @@ a{
 }
 .sql{
   background-image: url('../icons/mysql-original-wordmark.svg');
-
+}
+.details{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 5rem;
 }
 
 
