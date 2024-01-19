@@ -176,8 +176,32 @@ a{
   font-size: 1.3rem;
   font-weight: 300;
   text-align: left;
-  margin-left: 5rem;
+  display: none;
+  position: absolute;
+  z-index: 1; /* Ensure details appear above other elements */
+  padding: 1rem;
+  background-color: #f8debe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin: 1rem 0rem;
+  border-radius: 12px;
 }
 
 
+/* .list:hover .details {
+  /* display: block; 
+  visibility: visible;
+  opacity: 1;
+  
+  margin-bottom: 2rem;
+} */
 
+
+.list {
+  position: relative; /* Set the parent <li> to relative positioning */
+}
+
+.list:hover .details {
+  display: block;
+  
+
+}

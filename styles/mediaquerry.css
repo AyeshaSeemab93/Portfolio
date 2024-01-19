@@ -13,6 +13,9 @@
    align-items: flex-start;
    
   }
+  .details{
+    font-size: 0.9rem;
+  }
   .first-container{
     flex-direction: column;
   }
@@ -126,6 +129,9 @@
   }
   .code{
     margin-bottom: 0;
+  }
+  .list:hover {
+    font-size: 1.4rem;
   }
 
 }
