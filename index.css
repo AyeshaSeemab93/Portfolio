@@ -368,3 +368,14 @@ p a:hover{
   color: #774069;
 
 }
+#goToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  padding: 0;
+  width: 6rem;
+  font-size: 20px;
+  cursor: pointer; 
+  font-weight: 400;
+}
