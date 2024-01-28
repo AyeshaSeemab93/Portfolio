@@ -3,19 +3,24 @@ body{
   padding-bottom: 10rem;
  
 }
-.padding{
-  margin-top: -10rem;
+.position{
+  margin-top: -20rem;
   padding-top: 0;
 }
 .dots{
-  max-width: 15rem;
+  /* max-width: 15rem;
   margin-bottom: 9rem;
-  margin-right: -4rem;
+  margin-right: -4rem; */
+  max-width: 25%;
+  margin-bottom: 5%; /* Adjust the margin as needed */
+  margin-right: -4%;
   transform: rotate(-9deg);
  animation: rotate 6s infinite;  
+
 }
 .box{
-  padding: 4rem;
+  padding: 8%;
+  /* padding: 4rem; */
   color: white;
   font-weight: 900;
   font-style: italic;
@@ -25,16 +30,21 @@ body{
 }
 
 .circle{
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
+  width: 15vw; /* Adjust the width and height as needed */
+  height: 15vw;
   background-color: pink;
   animation: rotate 8s linear infinite;
   border-radius: 50%;
   border: solid white;
-  border-width: 1rem;
+  border-width: 1vw; /* Adjust the border width as needed */
+  /* border-width: 1rem; */
   border-style: dotted;
-  margin-left: -3.5rem;
-  margin-top: 10rem;
+  margin-left: -10%;
+  /* margin-left: -3.5rem; */
+  margin-top: 30%; /* Adjust the margin as needed */
+  /* margin-top: 10rem; */
   position: relative;
 }
 @keyframes rotate {
@@ -52,18 +62,18 @@ body{
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 }
 button{
   font-size: 1.5rem;
   font-weight: 900;
   padding: 1rem;
-  width: 30rem;
+  width: 30vw;
   background-color: #6FDCBF;
   margin-bottom: 0.5rem;
   border: none;
   border-radius: 50rem;
-  transition: width 0.4s ease, font-size 0.4s ease, margin-top 0.4s ease, margin-bottom 0.4s ease; 
+  transition: width 1s ease, font-size 1s ease, margin-top 1s ease, margin-bottom 1s ease; 
 
 }
 button a{
@@ -73,7 +83,7 @@ button a{
   vertical-align: middle;
 }
 button:hover{
-  width: 35rem;
+  width: 35vw;
   font-size: 2rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;

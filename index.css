@@ -323,6 +323,16 @@ padding-bottom: 4rem;
   width: 50%;
   object-fit: contain;
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+/* Center the icons using Flexbox */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -350,10 +360,9 @@ padding-bottom: 4rem;
 p{
   display: inline;
   font-family:cursive;
-font-size: 2rem;
-text-align: center;
-vertical-align: top;
-
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: top;
 }
 p a{
   text-decoration: none;
