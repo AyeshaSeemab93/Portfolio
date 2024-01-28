@@ -6,7 +6,6 @@ body {
 }
 .sec-1{
   padding-top:  1rem;
-  /* background: linear-gradient(to right, #FDF1E0 60%, #6FDCBF 0%); */
   background: linear-gradient(to right, #FDF1E0 60%, #6FDCBF 40%);
   height: 50rem;
 }
