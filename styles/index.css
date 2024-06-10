@@ -341,7 +341,6 @@ header {
 }
 .sec-4 {
   background-color: #f2dab6;
-
   padding: 2rem;
   text-align: center;
 }
@@ -352,14 +351,21 @@ header {
   justify-content: center;
   padding: 1rem;
 }
-
+.experience-item ul {
+  padding: 0;
+}
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 .single-list {
   margin: 3rem 0;
   font-size: 1.5rem;
   font-weight: 700;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-
   color: rgb(77, 88, 64);
 }
 .title {

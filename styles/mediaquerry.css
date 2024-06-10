@@ -66,6 +66,18 @@
     max-width: 100%;
     margin: 0.5rem;
   }
+  .sec-4 {
+    padding: 1rem;
+  }
+  .experience-item {
+    margin: 0;
+    padding: 0;
+  }
+  .single-list {
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
   .contact {
     padding-right: 0;
   }
