@@ -1,50 +1,41 @@
-body{
-  background-color: #FDF1E0;
+body {
+  background-color: #fdf1e0;
   padding-bottom: 10rem;
- 
 }
-.position{
+.position {
   margin-top: -20rem;
   padding-top: 0;
 }
-.dots{
-  /* max-width: 15rem;
-  margin-bottom: 9rem;
-  margin-right: -4rem; */
+.dots {
   max-width: 25%;
-  margin-bottom: 5%; /* Adjust the margin as needed */
+  margin-bottom: 5%;
   margin-right: -4%;
   transform: rotate(-9deg);
- animation: rotate 6s infinite;  
-
+  animation: rotate 6s infinite;
 }
-.box{
+.box {
   padding: 8%;
   /* padding: 4rem; */
   color: white;
   font-weight: 900;
   font-style: italic;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #E7B91C;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #e7b91c;
   position: relative;
 }
 
-.circle{
-  /* width: 200px;
-  height: 200px; */
-  width: 15vw; /* Adjust the width and height as needed */
+.circle {
+  width: 15vw;
   height: 15vw;
   background-color: pink;
   animation: rotate 8s linear infinite;
   border-radius: 50%;
   border: solid white;
-  border-width: 1vw; /* Adjust the border width as needed */
-  /* border-width: 1rem; */
+  border-width: 1vw;
   border-style: dotted;
   margin-left: -10%;
-  /* margin-left: -3.5rem; */
-  margin-top: 30%; /* Adjust the margin as needed */
-  /* margin-top: 10rem; */
+  margin-top: 30%;
   position: relative;
 }
 @keyframes rotate {
@@ -56,132 +47,125 @@ body{
   }
 }
 
-.flex-button{
+.flex-button {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
-  /* margin-left: 3rem; */
 }
-button{
+button {
   font-size: 1.5rem;
   font-weight: 900;
   padding: 1rem;
   width: 30vw;
-  background-color: #6FDCBF;
+  background-color: #6fdcbf;
   margin-bottom: 0.5rem;
   border: none;
   border-radius: 50rem;
-  transition: width 1s ease, font-size 1s ease, margin-top 1s ease, margin-bottom 1s ease; 
-
+  transition: font-sixe 3s ease, margin-top 2s ease, margin-bottom 2s ease;
 }
-button a{
+button a {
   text-decoration: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
   color: black;
   vertical-align: middle;
 }
-button:hover{
-  width: 35vw;
+button:hover {
   font-size: 2rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-.subject{
- color: white;
+.subject {
+  color: white;
   font-size: 2rem;
-  background-color: #CCB9EC;
+  background-color: #ccb9ec;
   text-align: center;
   vertical-align: top;
   padding-bottom: 2rem;
 }
 
-ol{
+ol {
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(77, 88, 64);
   margin: 1rem 10rem;
   padding: 1rem;
   padding-left: 4rem;
-  background-image: url('./icons/html5-plain-wordmark.svg');
+  background-image: url("./icons/html5-plain-wordmark.svg");
 }
-ol li{
+ol li {
   padding: 0.5rem;
   margin: 0.5rem;
   transition: font-size 0.3s ease;
-
 }
-ol li:hover{
+ol li:hover {
   font-size: 2rem;
   /* color: rgb(136, 163, 108); Change font color on hover */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
-a{
+a {
   text-decoration: none;
   color: rgb(77, 88, 64);
-
 }
-.code{
+.code {
   color: white;
- /* background-color: #cbe298; */
- background-color: white;
- margin-top: 1rem;
- padding: 0;
- width: 8rem;
- padding: 1rem 2rem;
- border-radius: 1rem;
+  /* background-color: #cbe298; */
+  background-color: white;
+  margin-top: 1rem;
+  padding: 0;
+  width: 8rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
 }
-.code-div{
+.code-div {
   color: white;
   text-align: right;
   margin-right: 5rem;
 }
-.background{
+.background {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
-.html{
-  background-image: url('../icons/html5-plain-wordmark.svg');
+.html {
+  background-image: url("../icons/html5-plain-wordmark.svg");
   background-size: 30rem;
 }
-.c{
-  background-image: url('../icons/csharp-original.svg');
+.c {
+  background-image: url("../icons/csharp-original.svg");
 }
-.java{
-  background-image: url('../icons/javascript-original.svg');
+.java {
+  background-image: url("../icons/javascript-original.svg");
   background-size: 20rem;
 }
-.react{
-  background-image: url('../icons/react-original-wordmark.svg');
+.react {
+  background-image: url("../icons/react-original-wordmark.svg");
 }
-.node{
-  background-image: url('../icons/nodejs-original-wordmark.svg');
+.node {
+  background-image: url("../icons/nodejs-original-wordmark.svg");
 }
-.api{
-  background-image: url('../icons/api.png');
+.api {
+  background-image: url("../icons/api.png");
 }
 
-.asp{
-  background-image: url('../icons/dot-net-plain-wordmark.svg');
+.asp {
+  background-image: url("../icons/dot-net-plain-wordmark.svg");
   background-size: 20rem;
 }
-.azure{
-  background-image: url('../icons/azure-original-wordmark.svg');
+.azure {
+  background-image: url("../icons/azure-original-wordmark.svg");
 }
-.git{
-  background-image: url('../logos/github.png');
-
+.git {
+  background-image: url("../logos/github.png");
 }
-.ui{
-  background-image: url('../icons/figma-original.svg');
-  
+.ui {
+  background-image: url("../icons/figma-original.svg");
 }
-.sql{
-  background-image: url('../icons/mysql-original-wordmark.svg');
+.sql {
+  background-image: url("../icons/mysql-original-wordmark.svg");
 }
-.details{
+.details {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
@@ -196,7 +180,6 @@ a{
   border-radius: 12px;
 }
 
-
 /* .list:hover .details {
   /* display: block; 
   visibility: visible;
@@ -205,13 +188,10 @@ a{
   margin-bottom: 2rem;
 } */
 
-
 .list {
   position: relative; /* Set the parent <li> to relative positioning */
 }
 
 .list:hover .details {
   display: block;
-  
-
 }

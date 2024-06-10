@@ -56,6 +56,7 @@ header {
 }
 
 .right-side a {
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: black;
   margin-right: 15px;
@@ -247,10 +248,7 @@ header {
 .sec-2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  /* background-color: rgb(202, 152, 77); */
-  background-color: #f4f4c7;
-  /* background-color: #ffe6cf; */
-  /* background-color: #ffd1c6; */
+  background-color: #e4f0ca;
 }
 .flex {
   display: flex;
@@ -280,7 +278,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 4rem;
 }
 .myPhoto img {
   max-width: 70%;
@@ -329,10 +326,9 @@ header {
   object-fit: contain;
   transition: transform 0.3s ease-in-out;
   display: flex;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
+  align-items: center;
+  justify-content: center;
 }
-/* Center the icons using Flexbox */
 .grid-item {
   display: flex;
   flex-direction: column;
@@ -342,6 +338,31 @@ header {
 
 .icon:hover {
   transform: scale(1.5);
+}
+.sec-4 {
+  background-color: #f2dab6;
+  padding: 2rem;
+  text-align: center;
+}
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.single-list {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  color: rgb(77, 88, 64);
+}
+.title {
+  padding: 2rem 0rem;
 }
 
 .contact {
