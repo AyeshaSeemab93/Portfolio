@@ -366,17 +366,18 @@ header {
 }
 
 .contact {
+  /* background-image: url("../images/phone.jpg"); */
   background-image: url("../images/contact.jpg");
-  background-position: right;
+  background-position: calc(10% - -20rem) calc(55% - 0rem);
   background-size: 100rem;
-  height: 42rem;
+  height: 45rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   text-align: start;
-  padding-right: 30rem;
+  padding-right: 8rem;
 }
 
 .contact-logo {
@@ -397,10 +398,7 @@ p a {
   color: black;
   font-family: "Times New Roman", Times, serif;
 }
-p a:hover {
-  font-size: 2rem;
-  color: #774069;
-}
+
 #goToTopBtn {
   display: none;
   position: fixed;
