@@ -1,99 +1,98 @@
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 900px) {
   header {
-   margin-left: 0;
-   margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .logo{
+  .logo {
     font-size: 40px;
   }
-  .right-side{
+  .right-side {
     flex-direction: column;
     align-items: flex-end;
-   
   }
-  .right-side a{
+  .right-side a {
     font-size: 1rem;
     margin-bottom: 0.3rem;
   }
-  .details{
+  .details {
     font-size: 0.9rem;
   }
-  .first-container{
+  .first-container {
     flex-direction: column;
   }
-  .animation{
+  .animation {
     max-width: 50%;
   }
-  .text{
+  .text {
     font-size: 1.5rem;
     margin: 0;
     padding: 0;
-    line-height: 2rem; 
+    line-height: 2rem;
     margin-right: -3rem;
     margin-left: 1rem;
- 
   }
-  .sec-1{
+  .sec-1 {
     height: auto;
     padding-bottom: 5rem;
-    background: linear-gradient(to right, #FDF1E0 68%, #6FDCBF 40%);
+    background: linear-gradient(to right, #fdf1e0 68%, #6fdcbf 40%);
   }
-  .heading{
+  .heading {
     font-size: 2rem;
     padding-top: 2rem;
     padding: 1rem;
   }
 
-  
-  .AboutMe{
+  .AboutMe {
     width: 100%;
     line-height: 2rem;
     font-weight: 500;
     font-size: 1.2rem;
     margin-right: 0rem;
     margin-left: 0rem;
-   
   }
-  
-  .flex{
+
+  .flex {
     flex-wrap: wrap;
   }
-  .heading2{
+  .heading2 {
     padding: 0;
     margin: 0;
   }
-  .grid{
+  .grid {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 0rem;
     row-gap: 2rem;
-    max-width: 100%; 
+    max-width: 100%;
     margin: 0.5rem;
   }
-
   .contact {
-    background-image: none;
-    background-color: antiquewhite; 
-    padding-left: 2rem;
+    padding-right: 0;
   }
-  .contact-logo{
+
+  #contact {
+    font-size: 2rem;
+  }
+  .contact-logo {
     height: 2rem;
-    margin: 0;
   }
- 
-  p, p a, p a:hover{
+
+  p,
+  p a,
+  p a:hover {
     font-size: 1.3rem;
     margin-left: 0;
   }
   /* 2ND PAGE */
- 
-.top, .position{
-  padding: 0;
-  margin-top: 0;
-  padding-top: 1rem;
-}
 
-/* .dots {
+  .top,
+  .position {
+    padding: 0;
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+
+  /* .dots {
   max-width: 30%;
   margin-bottom: 3%;
 }
@@ -109,67 +108,62 @@
   margin-top: 3%;
  
 } */
-   .dots{
+  .dots {
     width: 25%;
-   
   }
-  .box{
+  .box {
     /* padding: 2rem 0.5rem; */
     padding: 10% 5%;
     font-weight: 500;
-    margin-top: 0; 
+    margin-top: 0;
     margin-left: 0rem;
-    
   }
-  .circle{
+  .circle {
     width: 30vw;
     height: 30vw;
     background-color: pink;
     margin-top: -10%;
     margin-left: 75%;
-   
-  } 
+  }
 
-  button{ 
+  button {
     width: 80vw;
     font-size: 1.3rem;
   }
 
-  .flex{
+  .flex {
     padding-right: 0;
     margin-left: 0;
   }
-  ol{
+  ol {
     font-size: 1.2rem;
     margin: 1rem;
     padding: 0.5rem;
     padding-left: 2rem;
-    
   }
-  .html, .asp{
+  .html,
+  .asp {
     background-size: 15rem;
   }
-  .java, .azure{
+  .java,
+  .azure {
     background-size: 10rem;
   }
-  body{
-    padding-bottom: 3rem;
-  }
-  .subject{
+
+  .subject {
     padding: 1rem;
   }
-  .code{
+  .code {
     margin-bottom: 0;
   }
   .list:hover {
     font-size: 1.4rem;
   }
-  #goToTopBtn{
+  #goToTopBtn {
     bottom: 5px;
     right: 30px;
     padding: 0;
     width: 5rem;
     font-size: 20px;
   }
-
 }

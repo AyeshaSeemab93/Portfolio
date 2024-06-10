@@ -1,46 +1,49 @@
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 0;
 }
-.sec-1{
-  padding-top:  1rem;
-  background: linear-gradient(to right, #FDF1E0 60%, #6FDCBF 40%);
+.sec-1 {
+  padding-top: 1rem;
+  background: linear-gradient(to right, #fdf1e0 60%, #6fdcbf 40%);
   height: 50rem;
 }
 header {
   padding: 15px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
-.logo{
-  font-family: 'Rubik Doodle Shadow';
-  color: #6FDCBF;
+.logo {
+  font-family: "Rubik Doodle Shadow";
+  color: #6fdcbf;
   font-size: 80px;
   font-weight: bold;
   /* animation: bounce 3s infinite; Add animation to the logo */
-  animation: bounce 4s; 
+  animation: bounce 4s;
   text-decoration: none;
-
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-20px); /* Adjust the bounce height */
+    transform: translateY(-20px);
   }
   60% {
-    transform: translateY(-10px); /* Adjust the bounce height */
+    transform: translateY(-10px);
   }
 }
-.logo:hover{
+.logo:hover {
   color: #774069;
   cursor: pointer;
 }
@@ -50,7 +53,6 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
- 
 }
 
 .right-side a {
@@ -60,81 +62,76 @@ header {
   font-weight: bold;
   font-size: 1.2rem;
   transition: color 0.3s ease;
- 
 }
 
 .right-side a:hover {
-  color: #AF91DB;
-
+  color: #af91db;
 }
-.first-container{
+.first-container {
   display: flex;
   flex-direction: row;
   margin-right: 5rem;
 }
-.animation{
-max-width: 30%;
-margin-left: 3rem; 
-margin-right: 4rem;
-margin-top: 5rem;
+.animation {
+  max-width: 30%;
+  margin-left: 3rem;
+  margin-right: 4rem;
+  margin-top: 5rem;
 }
-.hello{
+.hello {
   transform: rotate(-9deg);
   transform-origin: bottom-left;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 40px;
-  color: #AF91DB;
+  color: #af91db;
   margin-top: 0;
   padding-bottom: 4rem;
   margin-bottom: 0;
- 
 }
-.hello:hover{
+.hello:hover {
   font-size: 50px;
 }
-.text{
+.text {
   vertical-align: bottom;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: 900;
-  font-size:2.2rem;
+  font-size: 2.2rem;
   margin-top: 5rem;
   line-height: 3rem;
   text-align: center;
   vertical-align: middle;
-
 }
 
 @keyframes colorChange {
-  0%{
+  0% {
     color: #79a7c8;
   }
   25% {
     color: #3a83b8;
   }
   50% {
-    color: #2A938D;
+    color: #2a938d;
   }
   100% {
     color: #985f42;
   }
 }
-.course{
-  color:#774069; 
-  font-family: 'Rubik Doodle Shadow'; 
+.course {
+  color: #774069;
+  font-family: "Rubik Doodle Shadow";
 }
 
-.course:hover{
- font-family: 'Rubik Broken Fax';
+.course:hover {
+  font-family: "Rubik Broken Fax";
 }
-.main-button{
+.main-button {
   padding: 2rem;
 }
-.button-container
-{
+.button-container {
   margin-top: 5rem;
 }
 .resume-button {
-
   display: inline-block;
   padding: 15px 30px;
   font-size: 18px;
@@ -149,7 +146,6 @@ margin-top: 5rem;
 .resume-button:hover {
   transition: background-color 0.3s;
   cursor: pointer;
-
 }
 @keyframes vibrate {
   0% {
@@ -168,7 +164,12 @@ margin-top: 5rem;
     transform: translateX(2px) translateY(2px);
   }
 }
-
+.company {
+  font-family: "Rubik Doodle Shadow";
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
 .glow-on-hover {
   background-color: #00ffd5;
   width: 220px;
@@ -176,7 +177,7 @@ margin-top: 5rem;
   border: none;
   outline: none;
   color: white;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: large;
   position: relative;
   z-index: 0;
@@ -184,11 +185,22 @@ margin-top: 5rem;
 }
 
 .glow-on-hover:before {
-  content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
   position: absolute;
   top: -3px;
-  left:-3px;
+  left: -3px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -196,12 +208,12 @@ margin-top: 5rem;
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite;
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
 .glow-on-hover:active {
-  color: #000
+  color: #000;
 }
 
 .glow-on-hover:active:after {
@@ -214,7 +226,7 @@ margin-top: 5rem;
 
 .glow-on-hover:after {
   z-index: -1;
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -225,36 +237,35 @@ margin-top: 5rem;
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
-
-
-
-
-
-
-.sec-2{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-/* background-color: rgb(202, 152, 77); */
-background-color: #f4f4c7;
-/* background-color: #ffe6cf; */
-/* background-color: #ffd1c6; */
-
-  
+.sec-2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* background-color: rgb(202, 152, 77); */
+  background-color: #f4f4c7;
+  /* background-color: #ffe6cf; */
+  /* background-color: #ffd1c6; */
 }
-.flex{
+.flex {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem 1rem 5rem 1rem; 
+  padding: 2rem 1rem 5rem 1rem;
   color: white;
 }
-.AboutMe{
+.AboutMe {
   padding: 1rem;
   border: none;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
@@ -263,24 +274,23 @@ background-color: #f4f4c7;
   font-weight: 900;
   font-size: 2rem;
   margin-right: 5rem;
-  color: #42948F;
- 
+  color: #42948f;
 }
-.AboutMe:hover{
+.AboutMe:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-.myPhoto{
-display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom: 4rem;
+.myPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
 }
-.myPhoto img{
+.myPhoto img {
   max-width: 70%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
 }
-.myPhoto img:hover{
+.myPhoto img:hover {
   transform: scale(1.15);
   transition: transform 0.3s ease;
 }
@@ -290,35 +300,35 @@ padding-bottom: 4rem;
   transition: background 0.1s ease;
   text-align: center;
   padding-bottom: 2rem;
-   
 }
-.heading{
-  color: #5E556A;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.heading {
+  color: #5e556a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 3rem;
   font-weight: 700;
   text-align: left;
   padding: 3rem;
   margin-top: 0;
 }
-.heading2{
+.heading2 {
   padding-top: 5rem;
   font-size: 3.5rem;
 }
-.center{
+.center {
   display: flex;
   justify-content: center;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 1rem;
   row-gap: 2rem;
-  max-width: 80%; 
+  max-width: 80%;
 }
 
-.icon{
+.icon {
   width: 50%;
   object-fit: contain;
   transition: transform 0.3s ease-in-out;
@@ -334,47 +344,45 @@ padding-bottom: 4rem;
   justify-content: center;
 }
 
-
 .icon:hover {
   transform: scale(1.5);
 }
 
 .contact {
-  background-image: url(./images/phone.jpeg);
-  background-position: center;
-  background-size: 85rem;
+  background-image: url("../images/contact.jpg");
+  background-position: right;
+  background-size: 100rem;
   height: 42rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-left: 38rem;
-}
-.contact-logo{
-  height: 3rem;
-  margin: 0;
+  text-align: start;
+  padding-right: 30rem;
 }
 
-p{
+.contact-logo {
+  height: 2.5rem;
+  margin: 0;
+}
+p {
   display: inline;
-  font-family:cursive;
-  font-size: 2rem;
+  font-family: cursive;
+  font-size: 1.8rem;
   text-align: center;
   vertical-align: top;
 }
-p a{
+p a {
   text-decoration: none;
   margin-left: 1rem;
   font-size: 1.5rem;
   color: black;
-  /* color: #b087f1; */
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-p a:hover{
+p a:hover {
   font-size: 2rem;
   color: #774069;
-
 }
 #goToTopBtn {
   display: none;
@@ -384,6 +392,6 @@ p a:hover{
   padding: 0;
   width: 6rem;
   font-size: 20px;
-  cursor: pointer; 
+  cursor: pointer;
   font-weight: 400;
 }
