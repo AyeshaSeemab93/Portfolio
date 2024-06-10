@@ -120,6 +120,7 @@ header {
 .course {
   color: #774069;
   font-family: "Rubik Doodle Shadow";
+  text-decoration: none;
 }
 
 .course:hover {
@@ -164,12 +165,7 @@ header {
     transform: translateX(2px) translateY(2px);
   }
 }
-.company {
-  font-family: "Rubik Doodle Shadow";
-  font-size: 40px;
-  font-weight: bold;
-  text-decoration: none;
-}
+
 .glow-on-hover {
   background-color: #00ffd5;
   width: 220px;
