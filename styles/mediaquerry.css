@@ -69,10 +69,14 @@
   .sec-4 {
     padding: 1rem;
   }
+  .experience{
+    font-size: 20px;
+  }
   .experience-item {
     margin: 0;
     padding: 0;
   }
+  
   .single-list {
     margin: 1rem;
     font-size: 1rem;
