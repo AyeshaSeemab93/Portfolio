@@ -69,14 +69,28 @@
   .sec-4 {
     padding: 1rem;
   }
-  .experience{
+  .company {
+    font-size: 1.2rem;
+  }
+  .date {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .experience {
     font-size: 20px;
   }
   .experience-item {
     margin: 0;
     padding: 0;
   }
-  
+  ul {
+    font-size: 1rem;
+    margin: 1rem 0 3rem 0.5rem;
+  }
+  .title {
+    padding: 1rem;
+  }
+
   .single-list {
     margin: 1rem;
     font-size: 1rem;

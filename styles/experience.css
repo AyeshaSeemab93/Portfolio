@@ -1,0 +1,35 @@
+body {
+  background-color: #f2dab6;
+}
+.sec-4 {
+  padding: 2rem;
+  color: rgb(77, 88, 64);
+}
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.company {
+  color: #5e556a;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.experience-item .date {
+  color: #5e556a;
+}
+.experience-item ul {
+  padding: 0;
+}
+ul {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(77, 88, 64);
+  align-self: start;
+}
+.title {
+  padding: 2rem 0rem;
+}

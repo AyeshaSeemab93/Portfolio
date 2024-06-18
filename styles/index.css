@@ -52,7 +52,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  animation: bounce 5s;
+  /* animation: bounce 5s; */
 }
 
 .right-side a {
@@ -139,7 +139,6 @@ header {
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
-  /* animation: vibrate 5s infinite; */
   transition: background-color 0.3s;
   margin-bottom: 2rem;
 }
@@ -147,23 +146,6 @@ header {
 .resume-button:hover {
   transition: background-color 0.3s;
   cursor: pointer;
-}
-@keyframes vibrate {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-5px) translateY(-5px);
-  }
-  50% {
-    transform: translateX(5px) translateY(5px);
-  }
-  75% {
-    transform: translateX(-5px) translateY(-5px);
-  }
-  100% {
-    transform: translateX(2px) translateY(2px);
-  }
 }
 
 .glow-on-hover {
@@ -173,7 +155,6 @@ header {
   border: none;
   outline: none;
   color: white;
-  /* font-family: "Dancing Script", cursive; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: large;
@@ -267,7 +248,7 @@ header {
   width: 80%;
   line-height: 2.5rem;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 5rem;
   color: #42948f;
 }
@@ -339,40 +320,6 @@ header {
 
 .icon:hover {
   transform: scale(1.5);
-}
-.sec-4 {
-  background-color: #f2dab6;
-  padding: 2rem;
-  color: rgb(77, 88, 64);
-}
-.experience-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-.company {
-  color: #5e556a;
-  font-size: 2rem;
-  font-weight: 700;
-}
-.experience-item .date {
-  color: #5e556a;
-}
-.experience-item ul {
-  padding: 0;
-}
-ul {
-  margin: 2rem 0;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: rgb(77, 88, 64);
-  align-self: start;
-}
-
-.title {
-  padding: 2rem 0rem;
 }
 
 .contact {
