@@ -1,5 +1,6 @@
 body {
-  background-color: #f2dab6;
+  /* background-color: #f2dab6; */
+  background: linear-gradient(to right, #fdf1e0 60%, #6fdcbf 40%);
 }
 .sec-4 {
   padding: 2rem;
